@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EJS</title>
+    <link rel="stylesheet" href="./todoListStyle.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+  </head>
+  <body>
+    <h1>Todo Tasks</h1>
+    <input type="text" id="todoInput">
+    <button type="button" id="myBtn"> Add </button>
+    <div id="todoItems"> </div> 
+    <script id="templateEntry" type="text/x-handlebars-template">
+      <div>{{description}}
+        <div class="deleteButton"> Delete</div>
+        <div class="currentDate"> {{date}}</div>
+        <div id="userName"> Alan </div>
+      </div>
+    </script>
+    <script src="./todoList.js"></script>
+  </body>
+</html>
