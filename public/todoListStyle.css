@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+#todoInput {
+  width: 150px;
+  height: 35px;
+  position: absolute;
+  border-color: black;
+  top 150px;
+  left: 45%;
+  font-size: 20px;
+}
+#myBtn {
+  position: absolute;
+  top: 80px;
+  background-color: black;
+  color: white;
+  left: 55%;
+  width: 40px;
+  height: 40px;
+}
+#todoItems {
+  position: absolute;
+  top:180px;
+  left: 47%;
+}
+#userName {
+  font-size: 10px;
+}
+.currentDate {
+  font-size: 10px;
+}
